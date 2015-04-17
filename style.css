@@ -1,0 +1,113 @@
+* {
+    font-family: Lato;
+}
+
+body{
+    margin:0;
+    background-color: #fcfcfc;
+}
+
+#page{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    border: 0;
+    max-width: 600px;
+}
+
+#global-container{
+    padding: 60px 20px 0 20px;
+}
+
+#page-content{
+    text-align: center;
+    margin-top: 170px;
+    font-size: 12px;
+}
+
+h1 {
+    color: #1ABC9C;
+    font-size: 55px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.parallelogram-h1 {
+    /*width: 140px;*/
+    height: 100px;
+    /*-webkit-transform: skew(-7deg);*/
+
+}
+
+.parallelogram-h1 > h1{
+    padding: 8px 20px;
+    /*-webkit-transform: skew(7deg);*/
+    color: #fcfcfc;
+    margin: 0;
+}
+
+.parallelogram-h2 {
+    width: 140px;
+    height: 30px;
+    -webkit-transform: skew(-7deg);
+    background: #1ABC9C;
+    margin: 40px 0 10px 0;
+}
+
+.parallelogram-h2 > h2{
+    padding: 3px 0 0 7px;
+    -webkit-transform: skew(7deg);
+    font-size: 20px;
+    color: #fcfcfc;
+    margin: 0;
+}
+
+#page-content > p.about-me{
+    font-size: 22px;
+    line-height: 30px;
+    color: #444444;
+    margin-bottom: 20px;
+}
+
+#page-content > p.contact-me{
+    margin-top: 5px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #666666;
+}
+
+a{
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1ce5b6;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+li > i {
+    margin-right: 5px;
+}
+
+#social-buttons {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+#social-buttons > li > a {
+    color: #333;
+}
+
+#social-buttons > li > a:hover {
+    color: #888;
+}
