@@ -6,6 +6,7 @@ body{
     margin:0;
     background-color: #fcfcfc;
     border-top: 3px solid #1ABC9C;
+    font-size: 100%;
 }
 
 #page{
@@ -22,49 +23,18 @@ body{
 
 #page-content{
     text-align: center;
-    margin-top: 170px;
-    font-size: 12px;
+    margin-top: 12em;
 }
 
 h1 {
     color: #1ABC9C;
-    font-size: 55px;
+    font-size: 400%;
     margin: 0;
     font-weight: 400;
 }
 
-.parallelogram-h1 {
-    /*width: 140px;*/
-    height: 100px;
-    /*-webkit-transform: skew(-7deg);*/
-
-}
-
-.parallelogram-h1 > h1{
-    padding: 8px 20px;
-    /*-webkit-transform: skew(7deg);*/
-    color: #fcfcfc;
-    margin: 0;
-}
-
-.parallelogram-h2 {
-    width: 140px;
-    height: 30px;
-    -webkit-transform: skew(-7deg);
-    background: #1ABC9C;
-    margin: 40px 0 10px 0;
-}
-
-.parallelogram-h2 > h2{
-    padding: 3px 0 0 7px;
-    -webkit-transform: skew(7deg);
-    font-size: 20px;
-    color: #fcfcfc;
-    margin: 0;
-}
-
 #page-content > p.about-me{
-    font-size: 22px;
+    font-size: 120%;
     line-height: 30px;
     color: #444444;
     margin-bottom: 20px;
@@ -72,7 +42,7 @@ h1 {
 
 #page-content > p.contact-me{
     margin-top: 5px;
-    font-size: 20px;
+    font-size: 120%;
     line-height: 28px;
     color: #666666;
 }
@@ -93,7 +63,7 @@ ul {
 li{
     list-style: none;
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 1em;
 }
 
 li > i {
@@ -102,13 +72,23 @@ li > i {
 
 #social-buttons {
     margin-top: 50px;
-    font-size: 18px;
+    font-size: 110%;
 }
 
 #social-buttons > li > a {
-    color: #333;
+    color: #444;
 }
 
 #social-buttons > li > a:hover {
     color: #888;
+}
+
+@media all and (max-width: 600px) {
+    body {
+        font-size: 70%
+    }
+
+    #page-content{
+        margin-top: 8em
+    }
 }
