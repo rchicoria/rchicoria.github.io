@@ -5,6 +5,7 @@
 body{
     margin:0;
     background-color: #fcfcfc;
+    border-top: 3px solid #1ABC9C;
 }
 
 #page{
