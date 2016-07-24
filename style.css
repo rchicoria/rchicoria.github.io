@@ -33,6 +33,10 @@ h1 {
     font-weight: 700;
 }
 
+h1.page-title {
+    font-family: 'Roboto Condensed';
+}
+
 #page-content > p.about-me{
     font-size: 120%;
     line-height: 30px;
